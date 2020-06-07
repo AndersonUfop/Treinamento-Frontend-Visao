@@ -87,7 +87,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputNome">Nome</label>
-                            <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
+                            <input type="nome" class="form-control" id="inputNome" placeholder="Nome" required>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="descricao">Descrição</label>
-                            <textarea class="form-control" id="descricao" rows="5" placeholder="Descrição"></textarea>
+                            <textarea class="form-control" id="descricao" rows="5" placeholder="Descrição" required></textarea>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,12 @@
         }
 
         function confirmacao() {
-            window.alert("Cadastro realizado com sucesso!")
+            var nome = document.getElementById("inputNome").value;
+            var descricao = document.getElementById("descricao").value;
+            if (nome != '' && descricao !== '') {
+                window.alert(`${nome} cadastrado com sucesso!`)
+            }
+
         }
     </script>
 </body>

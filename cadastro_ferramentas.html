@@ -87,7 +87,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputNome">Ferramenta</label>
-                            <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
+                            <input type="nome" class="form-control" id="inputNome" placeholder="Nome" required>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,12 @@
         }
 
         function confirmacao() {
-            window.alert("Cadastro realizado com sucesso!")
+            var nome = document.getElementById("inputNome").value;
+            if (nome != '') {
+                window.alert(`Cadastro realizado com sucesso!`)
+
+            }
+
         }
     </script>
 </body>

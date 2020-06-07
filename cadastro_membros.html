@@ -21,6 +21,19 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#telefone").mask("(99)99999-9999");
+
+
+        });
+    </script>
 </head>
 
 <body>
@@ -83,13 +96,13 @@
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <label for="inputNome">Nome</label>
-                        <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
+                        <input name="nome" type="nome" class="form-control" id="nome" placeholder="Nome" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputAddress">Status</label>
-                        <select class="form-control" id="cargo">
+                        <label for="inputStatus" id="status">Status</label>
+                        <select name="cargo" class="form-control" id="cargo">
                             <option>Ativo</option>
                             <option>Afastado</option>
                             <option>Desligado</option>
@@ -98,8 +111,8 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="departamento">Departamento</label>
-                        <select class="form-control" id="departamento">
+                        <label for="departamento" id="departamento">Departamento</label>
+                        <select name="departamento" class="form-control" id="departamento">
                             <option>Presidência</option>
                             <option>Vice-presidência</option>
                             <option>Projetos</option>
@@ -114,49 +127,50 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail">E-mail</label>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+                        <input name="email" type="email" class="form-control" id="email" placeholder="E-mail" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputTelefone">Telefone</label>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="Telefone">
+                        <label for="inputTelefone">Telefone (Apenas números)</label>
+                        <input name="telefone" type="text" class="form-control" id="telefone" placeholder="Telefone" required>
                     </div>
                 </div>
+
 
                 <label for="ferramentas">Ferramentas utilizadas:</label>
                 <div class="form-check">
                     <div class="form-row">
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check1" name="check1">
                             <label class="form-check-label" for="check1">HTML</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check2" name="check2">
                             <label class="form-check-label" for="check1">CSS</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check3" name="check3">
                             <label class="form-check-label" for="check1">JavaScript</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check4" name="check4">
                             <label class="form-check-label" for="check1">PHP</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check5" name="check5">
                             <label class="form-check-label" for="check1">Laravel</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check6" name="check6">
                             <label class="form-check-label" for="check1">Node JS</label>
                         </div>
 
                         <div class="form-group col-md-2">
-                            <input type="checkbox" class="form-check-input" id="check1">
+                            <input type="checkbox" class="form-check-input" id="check7" name="check7">
                             <label class="form-check-label" for="check1">React JS</label>
                         </div>
 
@@ -166,7 +180,7 @@
 
                 </div>
                 <label for="myFile">Selecione uma foto</label><br>
-                <input type="file" id="myFile" name="myFile" accept="image/*"><br><br>
+                <input type="file" id="imagem" name="imagem" accept="image/*"><br><br>
 
                 <button type="submit" class="btn btn-dark" onclick="confirmacao()">Salvar</button>
             </form>
@@ -199,7 +213,7 @@
 
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
@@ -218,7 +232,13 @@
         }
 
         function confirmacao() {
-            window.alert("Cadastro realizado com sucesso!")
+            var nome = document.getElementById("nome").value;
+            var email = document.getElementById("email").value;
+            var telefone = document.getElementById("telefone").value;
+            if (nome !== '' && email != '' && telefone != '') {
+                window.alert(`Cadastro realizado com sucesso!`)
+            }
+
         }
     </script>
 </body>
