@@ -1,16 +1,17 @@
 /* BASIC */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 html {
     background-color: #56baed;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     height: 100vh;
 }
 
 a {
-    color: #88B04B;
+    color: #2F80ED;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -69,6 +70,12 @@ h2 {
     border-radius: 0 0 10px 10px;
 }
 
+#botaoCadastrar {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 40px;
+}
+
 
 /* TABS */
 
@@ -90,12 +97,12 @@ input[type=reset] {
     background-color: #343A40;
     border: none;
     color: white;
-    padding: 15px 80px;
+    padding: 8px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
     box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
     -webkit-border-radius: 5px 5px 5px 5px;
@@ -133,7 +140,7 @@ input[type=password] {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 5px;
+    /* margin: 5px; */
     width: 85%;
     border: 2px solid #f6f6f6;
     -webkit-transition: all 0.5s ease-in-out;
@@ -154,10 +161,6 @@ input[type=password]:focus {
 input[type=text]:placeholder,
 input[type=password]:placeholder {
     color: #cccccc;
-}
-
-label {
-    padding: 15px 5px;
 }
 
 

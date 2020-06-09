@@ -16,6 +16,7 @@
 
     <!-- Seu CSS customizado -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets//css/mobile.css" media="screen and (min-width:300px) and (max-width:700px)">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -87,7 +88,7 @@
                     <div class="table-responsive-md">
                         <h3> Departamentos </h3>
                         <a href="cadastro.html">
-                            <button type="button" id="novoDep" class="btn btn-dark">Novo departamento</button>
+                            <button type="button" id="novoDep" class="btn btn-dark">+ Novo departamento</button>
                         </a>
                         <table class="table" id="table" width="80%">
                             <thead>
@@ -159,7 +160,7 @@
                     Tem certeza que deseja excluir este departamento ?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Sim</button>
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Sim</button>
                     <button type="button" class="btn btn-dark" data-dismiss="modal">Não</button>
                 </div>
             </div>
@@ -181,7 +182,7 @@
                     Tem certeza que deseja sair do sistema ?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="sair()">Sim</button>
+                    <button type="button" class="btn btn-light" data-dismiss="modal" onclick="sair()">Sim</button>
                     <button type="button" class="btn btn-dark" data-dismiss="modal">Não</button>
                 </div>
             </div>
