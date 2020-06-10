@@ -17,7 +17,7 @@ O desenvolvimento Web pode ser dividido nas seguintes etapas:
 
     **Front-end** (HTML, CSS, Bootrstrap, JavaScript ..)
 
-    B**ack-end** (PHP, Laravel, JavaScript ... )
+    **Back-end** (PHP, Laravel, JavaScript ... )
 
 4. **Testes**
 
