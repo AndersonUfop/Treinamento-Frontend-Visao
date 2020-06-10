@@ -48,7 +48,7 @@ Antes de encher, vocês de código, vamos entender alguns conceitos importantes 
 - Estudando
 - Lendo documentações
 
-Toda documentação está disponível em:
+## Toda documentação está disponível em:
 
 [W3Schools Online Web Tutorials](https://www.w3schools.com)
 
@@ -67,7 +67,7 @@ Toda documentação está disponível em:
 ## Materiais
 
 ### HTML
-	https://www.notion.so/HTML-7725766b86174aebbacf9783cf703025
+	(https://www.notion.so/HTML-7725766b86174aebbacf9783cf703025)
 ### CSS
-	https://www.notion.so/CSS-70b5bf1d5e6c477d9d351ccccecbaad2
+	(https://www.notion.so/CSS-70b5bf1d5e6c477d9d351ccccecbaad2)
 
