@@ -149,10 +149,10 @@ Exemplo:
 	    fundamentais: a iniciação do projeto (traçando os principais objetivos e metas), 
 	    o planejamento (estabelecendo as ações), a execução (tomando as medidas), o 
 	    monitoramento (avaliando os resultados) e o encerramento (documentando o que foi feito).</p>
-	</article>
+</article>
 ```
 
-⁉️ **Aninhando <article> na <section> ou vice-versa ?**
+⁉️ **Aninhando ```<article>``` na ```<section>``` ou vice-versa ?**
 
 ⁉️ **Podemos usar as definições para define como aninhar esses elementos ?**
 
@@ -166,7 +166,7 @@ Você também encontrará páginas que contém *<section>* elementos que contém
 
 O esporte <article> na **seção** de esportes pode ter uma seção técnica em cada *<article>.*
 
-### O elemento <header>
+### O elemento ```<header>```
 
 Especifica o cabeçalho de um elemento ou seção.
 
