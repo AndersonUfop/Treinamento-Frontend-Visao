@@ -13,11 +13,8 @@ O desenvolvimento Web pode ser dividido nas seguintes etapas:
 
 1. **Prototipação** (Figma, Pingendo, Adobe XD ..)
 2. **Banco de dados** (MySQL, Postgres, SQLite, MongoDB)
-3.  
-
-    **Front-end** (HTML, CSS, Bootrstrap, JavaScript ..)
-
-    **Back-end** (PHP, Laravel, JavaScript ... )
+3.  **Frontend** (HTML, CSS, Bootrstrap, JavaScript ..)
+    **Backend** (PHP, Laravel, JavaScript ... )
 
 4. **Testes**
 
@@ -58,13 +55,13 @@ Antes de encher, vocês de código, vamos entender alguns conceitos importantes 
 
 [DevDocs](https://devdocs.io)
 
-### Sites úteis
+## Sites úteis
 
 [Material Icons](https://material.io/resources/icons/?style=baseline)
 
 [Google Fonts](https://fonts.google.com)
 
-### Materiais necessários
+## Materiais necessários
 
 [HTML](https://www.notion.so/HTML-7725766b86174aebbacf9783cf703025)
 
