@@ -64,10 +64,9 @@ Antes de encher, vocês de código, vamos entender alguns conceitos importantes 
 
 [Google Fonts](https://fonts.google.com)
 
-## Materiais
+### Materiais necessários
 
-### HTML
-	(https://www.notion.so/HTML-7725766b86174aebbacf9783cf703025)
-### CSS
-	(https://www.notion.so/CSS-70b5bf1d5e6c477d9d351ccccecbaad2)
+[HTML](https://www.notion.so/HTML-7725766b86174aebbacf9783cf703025)
+
+[CSS](https://www.notion.so/CSS-70b5bf1d5e6c477d9d351ccccecbaad2)
 
