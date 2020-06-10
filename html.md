@@ -190,7 +190,7 @@ Exemplo:
 
 ❗**Fique Atento**
 
-Não confunda *<header>* com *<head>*
+Não confunda ```*<header>* com *<head>*```
 
 O *<head>* é um elemento para todos os elementos da cabeça: *<title>, <style>, <meta>, <link>, <script>.*
 
