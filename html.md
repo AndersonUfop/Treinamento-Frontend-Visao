@@ -164,7 +164,7 @@ Você também encontrará páginas que contém *<section>* elementos que contém
 
 **Exemplo para um jornal:**
 
-O esporte <article> na **seção** de esportes pode ter uma seção técnica em cada *<article>.*
+O esporte *<article>* na **seção** de esportes pode ter uma seção técnica em cada *<article>.*
 
 ### O elemento ```<header>```
 
@@ -192,11 +192,11 @@ Exemplo:
 
 Não confunda ```*<header>* com *<head>*```
 
-O *<head>* é um elemento para todos os elementos da cabeça: *<title>, <style>, <meta>, <link>, <script>.*
+O *<head>* é um elemento para todos os elementos da cabeça: *<title>, *<style>*, *<meta>*, *<link>*, *<script>.*
 
 O *<header>* é um cabeçalho de um elemento ou seção.
 
-### O elemento <footer>
+### O elemento *<footer>*
 
 Especifica o rodapé para um elemento ou seção.
 
@@ -212,7 +212,7 @@ Você pode ter vários footer em um documento.
 </footer>
 ```
 
-### O elemento <nav>
+### O elemento *<nav>*
 
 Define um conjunto de links de navegação.
 
@@ -232,7 +232,7 @@ Para automatizar o trabalho digite: "*nav>a*3".*
 
 *Funcionou no VS Code, não sei se funciona em outras IDEs.*
 
-### O elemento <aside>
+### O elemento *<aside>*
 
 Define algum conteúdo além do conteúdo que é colocado (como uma barra lateral).
 
@@ -249,7 +249,7 @@ Deve estar relacionado ao conteúdo.
 </section>
 ```
 
-### O elemento <figure>
+### O elemento *<figure>*
 
 Uma imagem e uma legenda podem ser agrupadas em um *<figure>*.
 
@@ -273,14 +273,14 @@ Cabeçalhos são títulos ou legendas que você pode exibir em uma página web.
 1. No mesmo arquivo digite:
 
 ```html
-		<body>
-			<h1>Titulo</h1>
-	    <h2>Subtitulo</h2>
-	    <h3>Texto 3</h3>
-	    <h4>Texto 4</h4>
-	    <h5>Texto 5</h5>
-	    <h6>Texto 6</h6>
-		</body>
+<body>
+	<h1>Titulo</h1>
+	<h2>Subtitulo</h2>
+	<h3>Texto 3</h3>
+	<h4>Texto 4</h4>
+	<h5>Texto 5</h5>
+	<h6>Texto 6</h6>
+</body>
 ```
 
 *Dica de SEO:  Sempre seguir a hierarquia do texto! O Google penaliza se não seguir estas regras.*
