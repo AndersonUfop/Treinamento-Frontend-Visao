@@ -28,17 +28,7 @@ Basicamente são dois programinhas bem levinhos que você vai precisar:
 
 ## E agora ?
 
-Antes de encher, vocês de código, vamos entender alguns conceitos importantes ? Bem rapidinho viu:
-
-### CSS
-
-### JAVASCRIPT
-
-- Linguagem de programação HTML e da Web.
-- JavaScript é responsável por eventos e animações em uma página.
-- Pode alterar o conteúdo da Web.
-
-## Como aprender essas tecnologias ?
+## Como aprender a desenvolver para Web ?
 
 - Neste treinamento
 - Buscando ajuda
