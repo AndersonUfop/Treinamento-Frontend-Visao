@@ -26,7 +26,6 @@ Basicamente são dois programinhas bem levinhos que você vai precisar:
 1. O **navegador** de sua escolha (Google Chome, Mozila, Opera, Edge ...)
 2. **Editor de código** (Visual Studio Code, Sublime Text ... )
 
-## E agora ?
 
 ## Como aprender a desenvolver para Web ?
 
