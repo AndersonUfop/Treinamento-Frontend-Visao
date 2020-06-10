@@ -13,8 +13,10 @@ O desenvolvimento Web pode ser dividido nas seguintes etapas:
 
 1. **Prototipação** (Figma, Pingendo, Adobe XD ..)
 2. **Banco de dados** (MySQL, Postgres, SQLite, MongoDB)
-3.  **Frontend** (HTML, CSS, Bootrstrap, JavaScript ..)
-    **Backend** (PHP, Laravel, JavaScript ... )
+3.  
+   **Frontend** (HTML, CSS, Bootrstrap, JavaScript ..)
+   
+   **Backend** (PHP, Laravel, JavaScript ... )
 
 4. **Testes**
 
