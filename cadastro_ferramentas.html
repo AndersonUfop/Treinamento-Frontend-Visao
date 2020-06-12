@@ -82,18 +82,16 @@
             </button>
             <h3> Cadastro de ferramentas</h3>
 
-            <form action="#">
+            <form action="#" method="get">
                 <div class="form-group">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputNome">Ferramenta</label>
-                            <input type="nome" class="form-control" id="inputNome" placeholder="Nome" required>
+                            <input type="nome" class="form-control" name="nome" id="inputNome" placeholder="Nome" required>
                         </div>
                     </div>
                 </div>
-
-
-                <button type="submit" class="btn btn-dark" onclick="confirmacao()">Salvar</button>
+                <input type="submit" class="btn btn-dark" value="Salvar" onclick="confirmacao()">
             </form>
         </div>
         </nav>
@@ -145,7 +143,7 @@
         function confirmacao() {
             var nome = document.getElementById("inputNome").value;
             if (nome != '') {
-                window.alert(`Cadastro realizado com sucesso!`)
+                window.alert(`Ferramenta: ${nome} \nCadastro realizado com sucesso!`)
 
             }
 

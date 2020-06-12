@@ -92,7 +92,7 @@
             </button>
             <h3> Cadastro de membros </h3>
 
-            <form action="">
+            <form accept="#" method="post">
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <label for="inputNome">Nome</label>
@@ -103,22 +103,22 @@
                     <div class="form-group col-md-6">
                         <label for="inputStatus" id="status">Status</label>
                         <select name="cargo" class="form-control" id="cargo">
-                            <option>Ativo</option>
-                            <option>Afastado</option>
-                            <option>Desligado</option>
-                            <option>Pós-Júnior</option>
+                            <option value="1">Ativo</option>
+                            <option value="2">Afastado</option>
+                            <option value="3">Desligado</option>
+                            <option value="4">Pós-Júnior</option>
                             
                         </select>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="departamento" id="departamento">Departamento</label>
                         <select name="departamento" class="form-control" id="departamento">
-                            <option>Presidência</option>
-                            <option>Vice-presidência</option>
-                            <option>Projetos</option>
-                            <option>Qualidade</option>
-                            <option>Marketing</option>
-                            <option>Gestão de Pessoas</option>
+                            <option value="1">Presidência</option>
+                            <option value="2">Vice-presidência</option>
+                            <option value="3">Projetos</option>
+                            <option value="4">Qualidade</option>
+                            <option value="5">Marketing</option>
+                            <option value="6">Gestão de Pessoas</option>
                             </select>
                     </div>
                 </div>
@@ -146,32 +146,32 @@
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check2" name="check2">
-                            <label class="form-check-label" for="check1">CSS</label>
+                            <label class="form-check-label" for="check2">CSS</label>
                         </div>
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check3" name="check3">
-                            <label class="form-check-label" for="check1">JavaScript</label>
+                            <label class="form-check-label" for="check3">JavaScript</label>
                         </div>
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check4" name="check4">
-                            <label class="form-check-label" for="check1">PHP</label>
+                            <label class="form-check-label" for="check4">PHP</label>
                         </div>
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check5" name="check5">
-                            <label class="form-check-label" for="check1">Laravel</label>
+                            <label class="form-check-label" for="check5">Laravel</label>
                         </div>
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check6" name="check6">
-                            <label class="form-check-label" for="check1">Node JS</label>
+                            <label class="form-check-label" for="check6">Node JS</label>
                         </div>
 
                         <div class="form-group col-md-2">
                             <input type="checkbox" class="form-check-input" id="check7" name="check7">
-                            <label class="form-check-label" for="check1">React JS</label>
+                            <label class="form-check-label" for="check7">React JS</label>
                         </div>
 
 
@@ -182,7 +182,7 @@
                 <label for="myFile">Selecione uma foto</label><br>
                 <input type="file" id="imagem" name="imagem" accept="image/*"><br><br>
 
-                <button type="submit" class="btn btn-dark" onclick="confirmacao()">Salvar</button>
+                <input type="submit" value="Salvar" class="btn btn-dark" onclick="confirmacao()">
             </form>
         </div>
         </nav>
@@ -236,7 +236,7 @@
             var email = document.getElementById("email").value;
             var telefone = document.getElementById("telefone").value;
             if (nome !== '' && email != '' && telefone != '') {
-                window.alert(`Cadastro realizado com sucesso!`)
+                window.alert(`Membro: ${nome} \nCadastro realizado com sucesso!`)
             }
 
         }
